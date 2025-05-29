@@ -1,0 +1,16 @@
+# Terraform Localfile
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+
+# tfvars
+*.tfvars
+*.tfvars.json
+
+# CLI configuration file
+.terraformrc
+terraform.rc
+
+.DS_Store
